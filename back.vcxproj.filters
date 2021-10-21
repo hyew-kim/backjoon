@@ -138,5 +138,17 @@
     <ClCompile Include="10808.c++">
       <Filter>소스 파일\10</Filter>
     </ClCompile>
+    <ClCompile Include="pro1.cpp">
+      <Filter>소스 파일\10</Filter>
+    </ClCompile>
+    <ClCompile Include="pro2.cpp">
+      <Filter>소스 파일\10</Filter>
+    </ClCompile>
+    <ClCompile Include="pro3cpp.cpp">
+      <Filter>소스 파일\10</Filter>
+    </ClCompile>
+    <ClCompile Include="pro4.cpp">
+      <Filter>소스 파일\10</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
