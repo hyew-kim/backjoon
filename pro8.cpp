@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
+/*배포순서 문제*/
 vector<int> solution(vector<int> progresses, vector<int> speeds) {
     vector<int> answer;
     int cnt = 0;
