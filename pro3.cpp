@@ -5,8 +5,12 @@ using namespace std;
 
 bool compare(pair<int, double> a, pair<int, double> b)
 {
-    if (a.second < b.second)
-        return (false); 
+    //compare함수 설정 시 true인 상황을 if로 하기
+    if (a.second == b.second)
+        return a.first < b.first;
+    return a.second > b.second;
+    /*if (a.second < b.second)
+        return (false);
     // 실패율은 값이 작은게 큰거임
     else if (a.second == b.second)
     {
@@ -16,7 +20,7 @@ bool compare(pair<int, double> a, pair<int, double> b)
             return (false);
     }
     else
-        return (true);
+        return (true);*/
 }
 
 vector<int> solution(int N, vector<int> stages) {
@@ -36,12 +40,15 @@ vector<int> solution(int N, vector<int> stages) {
             continue;
         user_state[e - 1].second++;
     }
+
     for (pair<int, double>& e : user_state)
     {
+        /*앞에서 user가 다 몰렸을경우 뒤에는 0으로 나누는 현상 발생*/
+        if (user == 0)
+            break;
         int stage_user = e.second;
         e.second /= user;
         user -= stage_user;
-        cout << e.first<< " user: " << user << "\nfail: " << e.second << "\n";
     }
     sort(user_state.begin(), user_state.end(), compare);
     for (int i = 0;i < user_state.size();i++)
@@ -54,7 +61,7 @@ vector<int> solution(int N, vector<int> stages) {
 
 int main(void)
 {
-    for (int e : solution(4, { 4, 4, 4, 4}))
+    for (int e : solution(5, { 1, 1, 1,1 }))
     {
       cout << e;
     }
