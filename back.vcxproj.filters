@@ -201,5 +201,11 @@
     <ClCompile Include="pro20.cpp">
       <Filter>소스 파일\10</Filter>
     </ClCompile>
+    <ClCompile Include="7568_re.cpp">
+      <Filter>소스 파일\10</Filter>
+    </ClCompile>
+    <ClCompile Include="1193.cpp">
+      <Filter>소스 파일\10</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
