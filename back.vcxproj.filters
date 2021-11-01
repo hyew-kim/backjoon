@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\10">
       <UniqueIdentifier>{aa37348e-b5a7-4c67-bb91-66e70c95256e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\11">
+      <UniqueIdentifier>{99d57ffc-94f5-4e95-ae7f-0715657d0532}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="11004.cpp">
@@ -206,6 +209,18 @@
     </ClCompile>
     <ClCompile Include="1193.cpp">
       <Filter>소스 파일\10</Filter>
+    </ClCompile>
+    <ClCompile Include="pro21.cpp">
+      <Filter>소스 파일\10</Filter>
+    </ClCompile>
+    <ClCompile Include="pro22.cpp">
+      <Filter>소스 파일\10</Filter>
+    </ClCompile>
+    <ClCompile Include="1260.cpp">
+      <Filter>소스 파일\10</Filter>
+    </ClCompile>
+    <ClCompile Include="pro23.cpp">
+      <Filter>소스 파일\11</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
