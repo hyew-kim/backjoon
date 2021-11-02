@@ -222,5 +222,14 @@
     <ClCompile Include="pro23.cpp">
       <Filter>소스 파일\11</Filter>
     </ClCompile>
+    <ClCompile Include="pro24.cpp">
+      <Filter>소스 파일\11</Filter>
+    </ClCompile>
+    <ClCompile Include="pro25.cpp">
+      <Filter>소스 파일\11</Filter>
+    </ClCompile>
+    <ClCompile Include="pro26.cpp">
+      <Filter>소스 파일\11</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

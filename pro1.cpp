@@ -12,8 +12,6 @@ void change_into_sharp2(string base2, string& answer)
             if (answer[i] == ' ')
                 answer[i] = '#';
         }
-        else
-            base2[i] = ' ';
     }
     return ;
 }
@@ -30,9 +28,11 @@ string change_into_sharp(string base2)
     return (base2);
 }
 
-string basechange(int num)
+string basechange(int num, int n)
 {
-    string s = "00000";
+    string s;
+    while (n--)
+        s.append("0");
     int i = 0;
 
     while (num)
@@ -41,7 +41,7 @@ string basechange(int num)
         num /= 2;
         i++;
     }
-    int len = 5;
+    int len = s.size();
     for (int idx = 0; idx < len / 2;idx++)
     {
         swap(s[idx], s[(len - 1) - idx]);
@@ -53,13 +53,13 @@ vector<string> solution(int n, vector<int> arr1, vector<int> arr2) {
     vector<string> answer;
     for (int e : arr1)
     {
-        string s = basechange(e);
+        string s = basechange(e, n);
         answer.push_back(change_into_sharp(s));
     }
     int i = 0;
     for (int e : arr2)
     {
-        string s = basechange(e);
+        string s = basechange(e, n);
         change_into_sharp2(s, answer[i]);
         i++;
     }
@@ -68,7 +68,7 @@ vector<string> solution(int n, vector<int> arr1, vector<int> arr2) {
 
 int main(void)
 {
-    vector<string>v = solution(5, { 9,20,28,18,11 }, { 1,1,1,1,1 });
+    vector<string>v = solution(6, { 46, 33, 33, 22, 31, 50 }, { 27, 56, 19, 14, 14, 10 });
     for (string e : v)
         cout << e << "\n";
     return 0;
