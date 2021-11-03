@@ -213,9 +213,6 @@
     <ClCompile Include="pro21.cpp">
       <Filter>소스 파일\10</Filter>
     </ClCompile>
-    <ClCompile Include="pro22.cpp">
-      <Filter>소스 파일\10</Filter>
-    </ClCompile>
     <ClCompile Include="1260.cpp">
       <Filter>소스 파일\10</Filter>
     </ClCompile>
@@ -229,6 +226,15 @@
       <Filter>소스 파일\11</Filter>
     </ClCompile>
     <ClCompile Include="pro26.cpp">
+      <Filter>소스 파일\11</Filter>
+    </ClCompile>
+    <ClCompile Include="pro27.cpp">
+      <Filter>소스 파일\11</Filter>
+    </ClCompile>
+    <ClCompile Include="pro22.cpp">
+      <Filter>소스 파일\11</Filter>
+    </ClCompile>
+    <ClCompile Include="pro28.cpp">
       <Filter>소스 파일\11</Filter>
     </ClCompile>
   </ItemGroup>
