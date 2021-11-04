@@ -23,6 +23,7 @@ vector<int> solution(vector<int> progresses, vector<int> speeds) {
             }
             idx++;
         }
+        //배포 완료 날짜 : (99 - progress[i]) / speeds[i] + 1;
         while (distribute < total_process && ready[distribute])
         {
             distribute++;

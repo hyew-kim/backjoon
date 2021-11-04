@@ -237,5 +237,11 @@
     <ClCompile Include="pro28.cpp">
       <Filter>소스 파일\11</Filter>
     </ClCompile>
+    <ClCompile Include="pro29.cpp">
+      <Filter>소스 파일\11</Filter>
+    </ClCompile>
+    <ClCompile Include="pro30.cpp">
+      <Filter>소스 파일\11</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

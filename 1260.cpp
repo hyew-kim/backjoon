@@ -1,47 +1,60 @@
 #include <bits/stdc++.h>
-#define MAX 1000
 
 using namespace std;
 
-int adjacent[MAX + 2][MAX + 2] = { 0 };
-int visited[MAX + 2] = { 0 };
-int n, m, v;
-
-void dfs(int v) {
-    cout << v << " ";
-    visited[v] = 1;
-    for (int i = 1; i <= n; i++) {
-        if (adjacent[v][i] && !visited[i]) 
-            dfs(i);
-    }
-}
-void bfs(int v) {
-    queue<int> q;
-    q.push(v);
-    visited[v] = 0;
-    while (!q.empty()) {
-        int v = q.front();
-        q.pop();
-        cout << v << " ";
-        for (int i = 1; i <= n; i++) {
-            if (adjacent[v][i] && visited[i]) {
-                q.push(i);
-                visited[i] = 0;
-            }
-        }
-    } 
-    cout << "\n";
+vector<bool>visited(1002);
+int board[1002][1002];
+int N, M;
+void dfs(int start)
+{
+	visited[start] = true;
+	cout << start << " ";
+	for (int i = 0;i <= N;i++)
+	{
+		if (board[start][i] == 1 && visited[i] == false)
+			dfs(i); //i가 연결된 지점
+	}
+	return;
 }
 
-int main(int argc, const char* argv[]) {
-    cin >> n >> m >> v;
-    for (int i = 0; i < m; i++) {
-        int x, y; cin >> x >> y;
-        adjacent[x][y] = 1;
-        adjacent[y][x] = 1;
-    }
-    dfs(v);
-    cout << "\n";
-    bfs(v);
-    return 0;
+void bfs(int start)
+{
+	queue<int> q;
+	q.push(start);
+	visited[start] = true;
+	while (!(q.empty()))
+	{
+		int x = q.front();
+		q.pop();
+		cout << x << " ";
+		for (int y = 0;y <= N;y++)
+		{
+			if (board[x][y] == 1 && visited[y] == false)
+			{
+				q.push(y);
+				visited[y] = true;
+			}
+		}
+	}
+	return;
+}
+
+int main(void)
+{
+	int V;
+	cin >> N >> M >> V;
+	
+	for (int i = 0;i < M;i++)
+	{
+		int p1, p2;
+		cin >> p1 >> p2;
+		board[p1][p2] = 1;
+		board[p2][p1] = 1;
+	}
+	dfs(V);
+	visited.clear();
+	visited.assign(1002, false);
+	cout << "\n";
+	bfs(V);
+	return 0;
 }

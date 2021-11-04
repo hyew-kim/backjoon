@@ -4,7 +4,7 @@ using namespace std;
 
 vector<int> solution(vector<int> numbers) {
     vector<int> answer;
-    for (int i = 0;i < numbers.size();i++)
+    /*for (int i = 0;i < numbers.size();i++)
     {
         for (int j = numbers.size() - 1;j > i;j--)
         {
@@ -16,5 +16,13 @@ vector<int> solution(vector<int> numbers) {
         }
     }
     sort(answer.begin(), answer.end());
+    return answer;*/
+    set<int> res;
+    for (int i = 0; i < numbers.size();i++)
+    {
+        for (int j = numbers.size() - 1;j > i;j--)
+            res.insert(numbers[i] + numbers[j]);
+    }
+    answer.assign(res.begin(), res.end());
     return answer;
 }
