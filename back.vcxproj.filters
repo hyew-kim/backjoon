@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\11">
       <UniqueIdentifier>{99d57ffc-94f5-4e95-ae7f-0715657d0532}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\22/1">
+      <UniqueIdentifier>{99e3d5ad-188d-4810-b24e-362ef90af518}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="11004.cpp">
@@ -245,6 +248,12 @@
     </ClCompile>
     <ClCompile Include="9012_re.cpp">
       <Filter>소스 파일\11</Filter>
+    </ClCompile>
+    <ClCompile Include="1913.cpp">
+      <Filter>소스 파일\11</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy1.cpp">
+      <Filter>소스 파일\22/1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
