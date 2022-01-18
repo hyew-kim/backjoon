@@ -255,5 +255,17 @@
     <ClCompile Include="greedy1.cpp">
       <Filter>소스 파일\22/1</Filter>
     </ClCompile>
+    <ClCompile Include="greedy2.cpp">
+      <Filter>소스 파일\22/1</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy3.cpp">
+      <Filter>소스 파일\22/1</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs1.cpp">
+      <Filter>소스 파일\22/1</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs2.cpp">
+      <Filter>소스 파일\22/1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
