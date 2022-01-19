@@ -267,5 +267,11 @@
     <ClCompile Include="dfs2.cpp">
       <Filter>소스 파일\22/1</Filter>
     </ClCompile>
+    <ClCompile Include="backtracking1.cpp">
+      <Filter>소스 파일\22/1</Filter>
+    </ClCompile>
+    <ClCompile Include="backtrackting2.cpp">
+      <Filter>소스 파일\22/1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
