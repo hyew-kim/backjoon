@@ -85,6 +85,7 @@ int main(void)
 		}
 	}
 	cout << "IMPOSSIBLE" <<"\n";
+	/*
 	for (int i = 0;i < r;i++)
 	{
 		for (int j = 0;j < c;j++)
@@ -102,4 +103,5 @@ int main(void)
 		}
 		cout << "\n";
 	}
+	*/
 }
