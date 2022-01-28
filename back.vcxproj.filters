@@ -279,5 +279,17 @@
     <ClCompile Include="bfs2.cpp">
       <Filter>소스 파일\22/1</Filter>
     </ClCompile>
+    <ClCompile Include="bfs3.cpp">
+      <Filter>소스 파일\22/1</Filter>
+    </ClCompile>
+    <ClCompile Include="bfs4.cpp">
+      <Filter>소스 파일\22/1</Filter>
+    </ClCompile>
+    <ClCompile Include="dp1.cpp">
+      <Filter>소스 파일\22/1</Filter>
+    </ClCompile>
+    <ClCompile Include="dp2.cpp">
+      <Filter>소스 파일\22/1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
