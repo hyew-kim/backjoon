@@ -315,5 +315,11 @@
     <ClCompile Include="분할정복2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Unionfind2.cpp">
+      <Filter>소스 파일\22/1</Filter>
+    </ClCompile>
+    <ClCompile Include="Unionfind.cpp">
+      <Filter>소스 파일\22/1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
