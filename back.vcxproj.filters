@@ -309,17 +309,23 @@
     <ClCompile Include="binarySearch2.cpp">
       <Filter>소스 파일\2</Filter>
     </ClCompile>
-    <ClCompile Include="분할정복.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="분할정복2.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Unionfind.cpp">
+      <Filter>소스 파일\2</Filter>
     </ClCompile>
     <ClCompile Include="Unionfind2.cpp">
-      <Filter>소스 파일\22/1</Filter>
+      <Filter>소스 파일\2</Filter>
     </ClCompile>
-    <ClCompile Include="Unionfind.cpp">
-      <Filter>소스 파일\22/1</Filter>
+    <ClCompile Include="분할정복.cpp">
+      <Filter>소스 파일\2</Filter>
+    </ClCompile>
+    <ClCompile Include="분할정복2.cpp">
+      <Filter>소스 파일\2</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy4.cpp">
+      <Filter>소스 파일\2</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy5.cpp">
+      <Filter>소스 파일\2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
