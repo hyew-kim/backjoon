@@ -70,7 +70,7 @@ int main(void)
 				}
 			}
 		}
-		current_height++;3
+		current_height++;
 	}
 	cout << area;
 }
