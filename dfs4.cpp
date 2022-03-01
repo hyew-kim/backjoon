@@ -5,6 +5,7 @@ using namespace std;
 int K, V, E;
 vector <int> graph[20002];
 int visted[20002];
+
 bool isBipartited(void)
 {
 	for (int i = 1;i <= V;i++)
