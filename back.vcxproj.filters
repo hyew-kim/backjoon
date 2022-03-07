@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\2">
       <UniqueIdentifier>{820b2530-728c-4e7e-8b72-13f4e7c8d2ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\3">
+      <UniqueIdentifier>{9ddc63b8-4d76-4535-9532-162805fc5940}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="11004.cpp">
@@ -350,6 +353,18 @@
     </ClCompile>
     <ClCompile Include="dp9.cpp">
       <Filter>소스 파일\2</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy7.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy8.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="RE1.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="priorityQ1.cpp">
+      <Filter>소스 파일\3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
