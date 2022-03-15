@@ -372,5 +372,17 @@
     <ClCompile Include="dfs5.cpp">
       <Filter>소스 파일\3</Filter>
     </ClCompile>
+    <ClCompile Include="dfs6.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="dp10.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="dp11.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="이분탐색.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
