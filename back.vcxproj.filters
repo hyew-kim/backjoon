@@ -384,5 +384,20 @@
     <ClCompile Include="이분탐색.cpp">
       <Filter>소스 파일\3</Filter>
     </ClCompile>
+    <ClCompile Include="9375.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="14425.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="다익스트라.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="다익스트라2.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="백트래킹3.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
